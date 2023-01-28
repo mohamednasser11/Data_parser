@@ -1,7 +1,6 @@
 from parsers.abstract_Handler import AbstractHandler
 import xmltodict
-import json
-import random as rand
+
 
 class XmlParsing(AbstractHandler):
     def parsing(self, file:str) -> str:
